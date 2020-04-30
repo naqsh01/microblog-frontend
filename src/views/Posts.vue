@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <hr class="hr is-invisible">
-    <div class="box" style="background-color:orange;">
+    <div class="box" style="background-color:purple;">
 
       <h1 class="title">Posts</h1>
       <hr class="hr">
