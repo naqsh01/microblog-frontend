@@ -8525,6 +8525,11 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
+rox-browser@^4.9.6:
+  version "4.9.6"
+  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-4.9.6.tgz#dacd3c2a6d88e8e8e87947caee4ac0f69cae4507"
+  integrity sha512-+fDZ3Syaai/4Fvlczrr7sH62VoJreaK9pl7urpo09wM/g0/8JjXvA8AL5bV0gJcn0Pv0/Ije0Ymc0D+l/EIBtw==
+
 rsvp@^3.3.3:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/rsvp/-/rsvp-3.6.2.tgz#2e96491599a96cde1b515d5674a8f7a91452926a"
