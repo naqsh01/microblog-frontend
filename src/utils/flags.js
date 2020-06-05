@@ -13,6 +13,7 @@ export const configurationFetchedHandler = fetcherResults => {
 }
 
 export const impressionHandler = (reporting, experiment) => {
+  console.log(experiment)
   if (experiment.name === 'title') {
     console.log('Title flag, ' + reporting.name + ' ,value is ' + reporting.value)
     gtag('event', experiment.name, {
