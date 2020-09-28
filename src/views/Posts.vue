@@ -2,7 +2,7 @@
   <div class="container">
     <hr class="hr is-invisible">
     <div class="box">
-      <h1 class="title">Posts</h1>
+      <h1 class="title">Posts version 1.0.9</h1>
       <hr class="hr">
       <div class="columns" v-if="show_sidebar">
         <div class="box column is-three-quarters">
