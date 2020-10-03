@@ -3,7 +3,7 @@
     <hr class="hr is-invisible">
     <div class="box" style="background-color: #22243c;">
       <div class="columns">
-        <div class="column">
+        <div class="column is-three-quarters">
           <h1 class="title" style="color: white;"><span v-if="show_title"> Hello DevOps World | </span> Share Your Thoughts! v1.2.4 </h1>
         </div>
         <div class="column">
