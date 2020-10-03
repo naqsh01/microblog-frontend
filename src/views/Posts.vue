@@ -2,7 +2,7 @@
   <div class="container">
     <hr class="hr is-invisible">
     <div class="box" style="background-color: #22243c;">
-      <h1 class="title" style="color: white;">Share Your Thoughts! v1.1.8 <span v-if="show_title"> - Show New Title!</span></h1>
+      <h1 class="title" style="color: white;">Share Your Thoughts! v1.1.9 <span v-if="show_title"> - Show New Title!</span></h1>
       <hr class="hr">
       <div class="columns" v-if="show_sidebar">
         <div class="box column is-three-quarters">
@@ -25,9 +25,17 @@
         <div class="box column">
           <h3 class="is-size-4 has-text-weight-bold">Users list</h3>
           <ul>
-            <li v-for="user in users" :key="user.url">
+            <!-- li v-for="user in users" :key="user.url">
               <a :href="user.url">{{user.username}}</a>
-            </li>
+            </li -->
+            <li>Shawn Ahmed</li>
+            <li style="font-weight: bold; color: green;">Emmanuel Bamishaye</li>
+            <li style="font-weight: bold; color: green;">Elena Benoit</li>
+            <li>April Mace</li>
+            <li style="font-weight: bold; color: green;">Brian Dawson</li>
+            <li>Logan Donley</li>
+            <li style="font-weight: bold; color: green;">Kathy Lam</li>
+            <li>Anand Chauhan</li>
           </ul>
         </div>
       </div>
