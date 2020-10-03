@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <hr class="hr is-invisible">
-    <div class="box">
-      <h1 class="title">Posts version 1.1.6 <span v-if="show_title"> - Show New Title!</span></h1>
+    <div class="box" style="background-color: #22243c;">
+      <h1 class="title" style="color: white;" >Posts version 1.1.7 <span v-if="show_title"> - Show New Title!</span></h1>
       <hr class="hr">
       <div class="columns" v-if="show_sidebar">
         <div class="box column is-three-quarters">
