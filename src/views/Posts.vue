@@ -2,7 +2,10 @@
   <div class="container">
     <hr class="hr is-invisible">
     <div class="box" style="background-color: #22243c;">
-      <h1 class="title" style="color: white;"><span v-if="show_title"> Hello DevOps World | </span> Share Your Thoughts! v1.2.0 </h1>
+      <h1 class="title" style="color: white;"><span v-if="show_title"> Hello DevOps World | </span> Share Your Thoughts! v1.2.3 </h1>
+      <div class="column">
+          <img src="../assets/DW_wordmark.png"/>
+      </div>
       <hr class="hr">
       <div class="columns" v-if="show_sidebar">
         <div class="box column is-three-quarters">
