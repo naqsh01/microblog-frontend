@@ -2,7 +2,7 @@
   <div class="container">
     <hr class="hr is-invisible">
     <div class="box" style="background-color: #22243c;">
-      <h1 class="title" style="color: white;" >Posts version 1.1.7 <span v-if="show_title"> - Show New Title!</span></h1>
+      <h1 class="title" style="color: white;">Share Your Thoughts! v1.1.8 <span v-if="show_title"> - Show New Title!</span></h1>
       <hr class="hr">
       <div class="columns" v-if="show_sidebar">
         <div class="box column is-three-quarters">
@@ -15,7 +15,12 @@
             <b-button type="is-dark" @click="addPost">Submit</b-button>
           </div>
           <hr class="hr">
-          <Post v-for="post in posts" :key="post.id" :post="post"/>
+          <ul>
+            <li><span style="font-weight: bold; color: green;">Elena Benoit 9:37 am:</span> Really enjoying today's keynote!</li>
+            <li><span style="font-weight: bold; color: green;">Brian Dawson 9:37 am:</span> First demo was awesome, looking forward to more product integrations.</li>
+            <li><span style="font-weight: bold; color: green;">Kathy Lam 9:39 am:</span> Feature flags are the most underrated technology in software development today. Fight me on this.</li>
+          </ul>
+          <!-- Post v-for="post in posts" :key="post.id" :post="post"/ -->
         </div>
         <div class="box column">
           <h3 class="is-size-4 has-text-weight-bold">Users list</h3>
@@ -37,7 +42,12 @@
           <b-button type="is-dark" @click="addPost">Submit</b-button>
         </div>
         <hr class="hr">
-        <Post v-for="post in posts" :key="post.id" :post="post"/>
+        <ul>
+          <li><span style="font-weight: bold; color: green;">Elena Benoit 9:37 am:</span> Really enjoying today's keynote!</li>
+          <li><span style="font-weight: bold; color: green;">Brian Dawson 9:37 am:</span> First demo was awesome, looking forward to more product integrations.</li>
+          <li><span style="font-weight: bold; color: green;">Kathy Lam 9:39 am:</span> Feature flags are the most underrated technology in software development today. Fight me on this.</li>
+        </ul>
+        <!-- Post v-for="post in posts" :key="post.id" :post="post"/-->
       </div>
     </div>
   </div>
