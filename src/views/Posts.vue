@@ -2,7 +2,7 @@
   <div class="container">
     <hr class="hr is-invisible">
     <div class="box" style="background-color: #22243c;">
-      <h1 class="title" style="color: white;">Share Your Thoughts! v1.1.9 <span v-if="show_title"> - Show New Title!</span></h1>
+      <h1 class="title" style="color: white;"><span v-if="show_title"> Welcome to DevOps World!</span> | Share Your Thoughts v1.2.0 </h1>
       <hr class="hr">
       <div class="columns" v-if="show_sidebar">
         <div class="box column is-three-quarters">
