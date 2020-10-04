@@ -4,7 +4,7 @@
     <div class="box" style="background-color: #22243c;">
       <div class="columns">
         <div class="column is-three-quarters">
-          <h1 class="title" style="color: white;"><span v-if="show_title"> Hello DevOps World | </span> Share Your Thoughts! v1.2.4 </h1>
+          <h1 class="title" style="color: white;"><span v-if="show_title"> Hello DevOps World | </span> Share Your Thoughts! v1.0.2 </h1>
         </div>
         <div class="column">
           <img src="../assets/DW_wordmark.png"/>
