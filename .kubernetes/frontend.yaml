@@ -19,8 +19,8 @@ spec:
       - name: "microblog-frontend"
         image: REPLACE_IMAGE
         env:
-          - name: VUE_APP_BASE_API_URL
-            value: microblog-backend-service
+          - name: FF_API_KEY
+            value: REPLACE_API_KEY
 ---
 apiVersion: "v1"
 kind: "Service"
@@ -31,8 +31,8 @@ metadata:
 spec:
   ports:
   - protocol: "TCP"
-    port: 80
-    targetPort: 80
+    port: 3000
+    targetPort: 3000
   selector:
     app: "microblog-frontend"
   type: "ClusterIP"
@@ -51,4 +51,4 @@ spec:
       - path: /
         backend:
           serviceName: microblog-frontend-service
-          servicePort: 80
+          servicePort: 3000
